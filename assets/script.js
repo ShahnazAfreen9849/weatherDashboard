@@ -46,3 +46,11 @@ function createCurrentWeather(data) {
   `;
   return currentWeatherElement;
 }
+submitBtn.addEventListener("click", function (event) {
+  event.preventDefault(); // Prevent form submission
+  const cityName = searchInput.value.trim();
+  if (cityName) {
+    getWeatherData(cityName);
+    searchInput.value = "";
+  }
+});
