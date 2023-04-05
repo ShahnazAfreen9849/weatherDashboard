@@ -1,0 +1,14 @@
+#every h1{
+    font-size: larger;
+    font-style: oblique;
+    border-color: aqua;
+    color: rgb(233, 135, 14);
+    text-align: center;
+}
+
+#every{
+    color:brown;
+    font-size: large;
+    border-style: solid;  
+    text-align: center;
+}
