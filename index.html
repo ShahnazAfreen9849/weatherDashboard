@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -7,28 +8,19 @@
     <link rel="stylesheet" href="./assets/style.css">
     <title>Weather Dashboard</title>
 </head>
-<body>
 
-    <div id="every">
-    <h1> Today's Weather</h1>
-    <p>"Every Day is Different"</p>
-</div>  
+   <body>
+    <h1> Weather DashBoard</h1>
+    <form>
+        <label for="search">Search for City</label>
+        <input text="text" id="search" name="search" required />
+        <button type="submit" id="submit-btn">Submit </button>
+    </form>
+    <div id="current-weather"></div>
+    <div id="forecast"></div>
+    <div id="search-history"></div>
+    <script src=".assets/script.js"></script>
 
-
-<div>
-    <h2> Search for a City: </h2>
-    <input  id="search" type="text" placeholder="City"  name="search">
-    <button id="submit" type="submit">Submit</button>
-</div>
-
-<div id="search-city">
-        <h3 class="card-header ">Search By City</h3>
-          <button city="Newyork" class="btn">New York</button>
-          <button city="Newark" class="btn">Newark</button>
-          <button city="New Jersey" class="btn">New Jersey</button>
-</div>
-
-<script src="./script.js"></script>
-    
 </body>
+
 </html>
