@@ -20,6 +20,13 @@ To install and run this application, follow these steps:
 
 . Enter a city name in the search bar and click the "Search" button.
 
+Application Deployed
+
+. https://shahnazafreen9849.github.io/weatherDashboard/
+
+ Application Image
+
+. ![alt Image of the application](/weatherApp.jpg)
 
 Usage
 
@@ -27,5 +34,3 @@ To use this weather dashboard, search for a city  by entering it in the search b
 
 The search history is displayed as clickable items, allowing you to easily access previously searched cities.Click on the search history item to display its weather data.
 
-Screenshots
-weatherApp.jpg attached in file
