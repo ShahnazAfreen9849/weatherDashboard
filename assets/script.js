@@ -39,7 +39,7 @@ function createCurrentWeather(data) {
   currentWeatherElement.classList.add("current-weather");
   currentWeatherElement.innerHTML = `
     <h2>${name} (${moment.unix(dt).format("M/D/YYYY")})</h2>
-    <img src="https://openweathermap.org/img/w/${weather[0].icon}.png" alt="${weather[0].description}" />
+  <img src="https://openweathermap.org/img/w/${weather[0].icon}.png" alt="${weather[0].description}" />
     <p>Temperature: ${main.temp} °F</p>
     <p>Humidity: ${main.humidity}%</p>
     <p>Wind Speed: ${wind.speed} MPH</p>
